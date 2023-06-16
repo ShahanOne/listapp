@@ -14,7 +14,7 @@ function Login(props) {
   }
 
   return (
-    <div className="grid md:grid-cols-2 px-2 py-40 md:px-80 md:py-44">
+    <div className="grid md:grid-cols-2 px-2 py-40 md:px-80 md:py-48">
       <div className=" text-white  bg-indigo-600 text-3xl font-bold  rounded-lg shadow-lg pl-16 py-16 md:py-44">
         Login to continue
       </div>
