@@ -32,7 +32,7 @@ function ContactsPage(props) {
       </div>
       <div onMouseOver={props.getMoreUsers} className="text-center">
         <button
-          // onClick={props.getMoreUsers}
+          onClick={props.getMoreUsers}
           className={`text-white ${
             !users.length ? 'invisible' : ''
           } bg-indigo-600 hover:bg-indigo-500 p-4 my-4 shadow-lg rounded-full animate-pulse`}
