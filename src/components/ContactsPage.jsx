@@ -30,14 +30,14 @@ function ContactsPage(props) {
           ))
         )}
       </div>
-      <div onMouseOver={props.getMoreUsers} className="text-center">
+      <div className="text-center">
         <button
           onClick={props.getMoreUsers}
           className={`text-white ${
             !users.length ? 'invisible' : ''
           } bg-indigo-600 hover:bg-indigo-500 p-4 my-4 shadow-lg rounded-full animate-pulse`}
         >
-          Loading
+          Load More
         </button>
         <div className="footer text-white text-2xl bg-indigo-600 px-4 py-12 shadow-lg">
           {'</>'} 2023
